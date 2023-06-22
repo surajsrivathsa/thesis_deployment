@@ -1,0 +1,33 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: /Users/surajshashidhar/git/thesis_deployment/python_backend_api
+      dockerfile: Dockerfile
+    container_name: sur-backend
+    image: sur-backend
+    ports:
+      - "8000:8000"
+    networks:
+      - frontend_backend_connection
+    volumes:
+      - "/Users/surajshashidhar/git/thesis_deployment/python_backend_api/:/api"
+
+  frontend:
+    build:
+      context: /Users/surajshashidhar/git/thesis_deployment/react_frontend_ui
+      dockerfile: Dockerfile
+    container_name: sur-frontend
+    image: sur-frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - frontend_backend_connection
+    volumes:
+      - "/Users/surajshashidhar/git/thesis_deployment/react_frontend_ui/:/app"
+      - "sur_node_vol:/app/node_modules"
+
+networks:
+  frontend_backend_connection:
+volumes:
+  sur_node_vol:

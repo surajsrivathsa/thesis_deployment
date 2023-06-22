@@ -1,0 +1,500 @@
+comic_no,Book Title,Vol,Issue,Year,Month,genre,link
+3451,Blue Bolt,10,2,1949,Sep,superhero|vigilante,
+3452,Dick Cole - Blue Bolt,3,1,1949,Jun,superhero|vigilante,
+3453,Dick Cole - Blue Bolt,5,3,,Dec,superhero|vigilante,
+3454,Dick Cole - Blue Bolt,2,7,,Dec,superhero|vigilante,
+3455,Dick Cole - Blue Bolt,5,7,,,superhero|vigilante,
+3456,Blue Bolt,8,7,,Dec,superhero|vigilante,
+3457,Dick Cole - Blue Bolt,,,,,superhero,
+3458,Lightning Man - Blue Bolt,1,2,,July,superhero,
+3459,Barb Riders,,,,,western,
+3460,Straight Arrow,,1,,,western,
+3461,Boy - Crimebuster,,34,,Jun,adventure|detective|romance|superhero,
+3462,Boy - Detective,,,1952,Jun,detective|thriller|short story,
+3463,Brenda Starr - Silver lining in sun valley,,,1948,Jun,romance|adventure|female,
+3464,Brenda Starr - Shopping for Trouble,,9,1949,Jul,romance|adventure|detective|female,https://digitalcomicmuseum.com/index.php?dlid=18306
+3465,Brenda Starr -The Great Penicillin Plot,,10,1949,Aug,romance|adventure|detective|female,https://digitalcomicmuseum.com/index.php?dlid=19525
+3466,Brenda Starr - Assignment Preferred,,13,1947,Sep,romance|adventure|detective|female,https://digitalcomicmuseum.com/index.php?dlid=18751
+3467,Broncho Bill - Justice on the Range,,13,1950,Jan,Western,https://digitalcomicmuseum.com/index.php?dlid=16452
+3468,Black Terror - The Dream Maker,,22,1948,Mar,Superhero,https://digitalcomicmuseum.com/index.php?dlid=10115
+3469,Buster Crabbe and the Maid of mars,,2,1952,July,Western,https://digitalcomicmuseum.com/index.php?dlid=14737
+3470,Captain Marvel Jr - Bird of Doom,,18,1944,Apr,superhero|humour,https://digitalcomicmuseum.com/index.php?dlid=21150
+3471,Captain Marvel Jr - The hunt for treasure,,50,1947,Jun,superhero|humour,https://www.mycomicshop.com/search?IID=7044521
+3472,Captain Marvel Jr - The acrobat death trap,,47,1947,Mar,superhero|humour,https://comicvine.gamespot.com/captain-marvel-jr-47-the-acrobats-death-trap/4000-220277/
+3473,Captain Marvel Jr - Voodoo Clock,,78,1949,,superhero|humour,https://www.abebooks.com/comics/Captain-Marvel-%2378-1949--Fawcett-Golden/22845815226/bd
+3474,Captain Marvel Jr - Keep the Liberty Bell Ringing,,21,1944,Jul,superhero|humour,https://digitalcomicmuseum.com/index.php?dlid=18430
+3475,Captain Marvel Jr - Irresistible Sword,,77,1949,Sep,superhero|humour,https://comicvine.gamespot.com/captain-marvel-jr-77-the-irresistible-sword/4000-220293/
+3476,Captain Science - Space Pirates,,2,1951,Feb,scifi|adventure|superhero,https://digitalcomicmuseum.com/index.php?dlid=12232
+3477,Captain Science - Mental Monsters,,3,1951,Apr,scifi|adventure|superhero,https://digitalcomicmuseum.com/index.php?dlid=9551
+3478,Captain Science - Martian Salvers,,4,1951,Jun,scifi|adventure|superhero,https://digitalcomicmuseum.com/index.php?dlid=12233
+3479,Captain Science - Spawn of Pathor,,5,1951,Oct,scifi|adventure|superhero,https://digitalcomicmuseum.com/index.php?dlid=20944
+3480,Captain Steven Savage - Fight to Kill,,7,1952,Oct,war,https://digitalcomicmuseum.com/index.php?dlid=2916
+3481,CatMan and the Kitten,,8,1943,Jul,adventure|crime|superhero,https://digitalcomicmuseum.com/index.php?dlid=12792
+3482,Catman - Deacon,2,15,1942,May,adventure|crime|superhero,https://digitalcomicmuseum.com/index.php?dlid=18739
+3483,Catman -The Story of Rosetta,,27,1945,Apr,adventure|crime|superhero,https://digitalcomicmuseum.com/index.php?dlid=18653
+3484,Catman - The Blitzkrieg Crime,1,10,1941,Dec,adventure|crime|superhero,https://digitalcomicmuseum.com/index.php?dlid=18615
+3485,Cowgirl Romances -  Ride Fast for Wyoming,,1,1950,,romance|western|female,https://digitalcomicmuseum.com/index.php?dlid=9064
+3486,"Champion Comics - Neptina, Scrab",,2,1939,Dec,adventure|superhero|children,https://digitalcomicmuseum.com/index.php?dlid=16935
+3487,Charlie Chan - The Antique Burglar,1,5,1949,Dec,detective|mystery,https://digitalcomicmuseum.com/index.php?dlid=20065
+3488,Charlie Chan - The secret of smuggled silk,1,3,1948,Nov,detective|mystery,https://digitalcomicmuseum.com/index.php?dlid=23088
+3489,Charlie Chan - The hit and run murder case,1,1,1948,Jun,detective|mystery,https://digitalcomicmuseum.com/index.php?dlid=14493
+3490,Champion Comics - Human Meteor,,25,1943,Apr,adventure|superhero|children,https://digitalcomicmuseum.com/index.php?dlid=10432
+3491,Cinderella Love - yesterdays love,,13,1953,,romance|female,https://digitalcomicmuseum.com/index.php?dlid=4879
+3492,Cow Puncher - Devils Scourge,,4,1948,May,western,https://digitalcomicmuseum.com/index.php?dlid=27548
+3493,Cowgirl Romances -  Love is where you find it,,11,1952,Sep,romance|western|female,https://digitalcomicmuseum.com/index.php?dlid=19396
+3494,Crack Comics - Black Condor and The Clock,,9,1941,Jan,detective|mystery|superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=5913
+3495,Crack Comics - Spitfire,,25,1942,Sep,detective|mystery|superhero|humor|aviation,https://digitalcomicmuseum.com/index.php?dlid=24589
+3496,Crack Comics - dairy of a dictator,,32,1943,Dec,detective|mystery|superhero|humor|aviation,https://digitalcomicmuseum.com/index.php?dlid=21449
+3497,Crack Comics - Captain Triumph,,33,1944,Apr,detective|mystery|superhero|humor|aviation,https://digitalcomicmuseum.com/index.php?dlid=31418
+3498,Crack Comics - Crime over the city,,39,1945,Sep,detective|mystery|superhero|humor|aviation,https://digitalcomicmuseum.com/index.php?dlid=21510
+3499,Crack Comics - Werewolves war,,51,1947,Nov,detective|mystery|superhero|humor|aviation,https://digitalcomicmuseum.com/index.php?dlid=13433
+3500,Crack Comics - The man who robbed the dead,,53,1948,Mar,detective|mystery|superhero|humor|aviation,https://digitalcomicmuseum.com/index.php?dlid=13570
+3501,Crack Western - War of renegade rails,,63,1949,Nov,western|adventure,https://digitalcomicmuseum.com/index.php?dlid=19493
+3502,Crack Western - Mexican Massacare,,80,1952,Sep,western|adventure,https://digitalcomicmuseum.com/index.php?dlid=19566
+3503,Crackajack Funnies - Ellery Queen,,25,1940,Jul,detective|mystery|humor|adventure|superhero|aviation,https://digitalcomicmuseum.com/index.php?dlid=18880
+3504,Crackajack Funnies - Kidnapping of Bell Wayne,,27,1940,Sep,detective|mystery|humor|adventure|superhero|aviation,https://digitalcomicmuseum.com/index.php?dlid=23070
+3505,Crash Comics - Strongman - Illegal Raider Ship,,1,1940,May,superhero|detective|jungle,https://digitalcomicmuseum.com/index.php?dlid=22427
+3506,Crimes by Women - Belle Gunness,,2,1948,Aug,non-finction|crime|Female,https://digitalcomicmuseum.com/index.php?dlid=22087
+3507,Daredevil - Criminals have no conscience,,36,1946,May,superhero|detective|crime,https://digitalcomicmuseum.com/index.php?dlid=24344
+3508,Dollman - Wanted for Sabotage,,4,1942,Oct,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=21086
+3509,Dollman - Robe of Lucifer,,14,1947,Sep,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=984
+3510,Dollman - Redskins scalp crime,,18,1948,Sep,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=985
+3511,Dollman - Silver Dollar,,17,1948,Jul,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=16789
+3512,Dollman - Black heart of Nemo,,20,1949,Jan,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=13814
+3513,Dollman - Past life of Paul Parr,,32,1951,Feb,superhero|humor|history,https://digitalcomicmuseum.com/index.php?dlid=16597
+3514,Dollman - Dollman's Dilemma,,34,1951,Jun,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=32078
+3515,Dollman - The eerie tale of mind monster,,42,1952,Oct,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=17476
+3516,Dollman - Who can stop the radioactive man?,,44,1953,Feb,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=17668
+3517,Dollman - The Headless Horseman,,41,1952,Aug,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=12032
+3518,Dotty - magical mania,,37,1948,Nov,teen|romance|female,https://digitalcomicmuseum.com/index.php?dlid=2478
+3519,Dotty - and her Boyfriends,,38,1949,Jan,teen|romance|female,https://digitalcomicmuseum.com/index.php?dlid=3718
+3520,Durango Kid - Show em no mercy,,13,1951,Oct,western|adventure,https://digitalcomicmuseum.com/index.php?dlid=16121
+3521,Daring Adventures - Dynamic man meets the little people,,16,1964,Jan,superhero|detective,https://comicbookplus.com/?dlid=62302
+3522,Dynamic Man- The Echo,,19,1946,Jul,superhero|war|humor,https://digitalcomicmuseum.com/index.php?dlid=17553
+3523,Dynamic Man - man on the run,,21,1947,Jul,superhero|war|humor|scifi,https://digitalcomicmuseum.com/index.php?dlid=18501
+3524,The Eagle - Monster of tropics,,4,Jan,1942,superhero|war,https://digitalcomicmuseum.com/index.php?dlid=18501
+3525,Exciting Comics - Black terror - Malay Menace,,15,1941,Dec,superhero|war|adventure,https://digitalcomicmuseum.com/index.php?dlid=12524
+3526,Exciting Comics - Black terror - The Hypnotic gas,,17,1942,Mar,superhero|war|adventure,https://digitalcomicmuseum.com/index.php?dlid=20540
+3527,Exciting Comics - Black terror - The Comic Story,,52,1946,Nov,superhero|adventure|humor,https://digitalcomicmuseum.com/index.php?dlid=19416
+3528,Exciting Comics - Black Terror - Miss masque,,53,1947,Jan,superhero|humor|romance,https://digitalcomicmuseum.com/index.php?dlid=21652
+3529,Exciting Comics - Black Terror - Judy of the Jungle,,55,1947,May,superhero|adventure|jungle,https://digitalcomicmuseum.com/index.php?dlid=18028
+3530,Famous Funnies -100,,100,1942,Nov,humor|adventure|scifi|superhero,https://digitalcomicmuseum.com/index.php?dlid=17115
+3531,Famous Funnies - 24,,24,1936,Jul,humor|adventure|sports,https://digitalcomicmuseum.com/index.php?dlid=21647
+3532,Famous Funnies - 26,,26,1936,Sep,humor|children,https://digitalcomicmuseum.com/index.php?dlid=21129
+3533,Famous Funnies - 49,,49,1938,Aug,humor|animal|teen|children,https://digitalcomicmuseum.com/index.php?dlid=21252
+3534,Famous Funnies - 69,,69,1940,Apr,humor|history|scifi,https://digitalcomicmuseum.com/index.php?dlid=22434
+3535,Famous Funnies - 92,,92,1942,Mar,humor|superhero|animal,https://digitalcomicmuseum.com/index.php?dlid=23794
+3536,Famous Funnies - 213,,213,1954,Sep,humor|superhero|adventure|scifi,https://digitalcomicmuseum.com/index.php?dlid=20367
+3537,Fantastic Comics - the nefarious Nipon,,13,1940,Dec,superhero|adventure,https://digitalcomicmuseum.com/index.php?dlid=21092
+3538,Ivanhoe,,20,1952,Dec,history|non fiction|adventure,https://digitalcomicmuseum.com/index.php?dlid=17065
+3539,Dollman - Crime goes to college,,72,1939,Dec,superhero|humor,https://digitalcomicmuseum.com/index.php?dlid=9686
+3540,Feature Funnies - 2,,2,1937,Nov,humor|sports|drama|non fiction,https://digitalcomicmuseum.com/index.php?dlid=19291
+3541,Feature Comics - Reynolds of the mounted,,25,1939,Oct,humor|detective|mystery,https://digitalcomicmuseum.com/index.php?dlid=23715
+3542,Feature Comics - The death room,,31,1940,Apr,superhero|humor|drama|detective,https://digitalcomicmuseum.com/index.php?dlid=18641
+3543,Feature Comics - Rusty Ryan,,53,1942,Feb,humor|superhero|detective|jungle,https://digitalcomicmuseum.com/index.php?dlid=18611
+3544,Feature Comics - beyond the head lines,,62,1942,Nov,superhero|detective|western|jungle|humor,https://digitalcomicmuseum.com/index.php?dlid=19233
+3545,Feature Comics - lala Palooza,,65,1943,Feb,superhero|humor|detective,https://digitalcomicmuseum.com/index.php?dlid=17808
+3546,Feature Comics - The crooks who hated crime,,73,1943,Nov,superhero|humor|adventure,https://digitalcomicmuseum.com/index.php?dlid=17838
+3547,Feature Comics - Fear,,78,1944,May,humor|detective|mystery|aviation,https://digitalcomicmuseum.com/index.php?dlid=17943
+3548,Feature Comics - The magsworth case,,93,1945,Nov,humor|detective|mystery|aviation,https://digitalcomicmuseum.com/index.php?dlid=18582
+3549,Feature Comics - The Undertaker Returns,,94,1946,Jan,humor|detective|fantasy|aviation,https://digitalcomicmuseum.com/index.php?dlid=18587
+3550,Feature Comics - Queen of the Ants,,103,1946,Oct,superhero|humor|fantasy|children,https://digitalcomicmuseum.com/index.php?dlid=18287
+3551,Feature Comics - Mr.Skeleton,,118,1948,Jan,superhero|children|humor,https://digitalcomicmuseum.com/index.php?dlid=16981
+3552,Feature Comics - College for radicals,,43,1941,Apr,superhero|children|humor,https://digitalcomicmuseum.com/index.php?dlid=12810
+3553,Feature Comics - Enemy snubs  menace costal areas,,60,1942,Sep,superhero|humor|detective|jungle,https://digitalcomicmuseum.com/index.php?dlid=18479
+3554,Feature Funnies - 4,,4,1938,Jan,humor|non-fiction|sports,https://digitalcomicmuseum.com/index.php?dlid=19034
+3555,Feature Comics - Mr.Curio and his minions,,112,1947,Jul,superhero|humor|detective,https://digitalcomicmuseum.com/index.php?dlid=1494
+3556,Feature Comics - Dishonorables,,58,1942,Jul,superhero|humor|western,https://digitalcomicmuseum.com/index.php?dlid=3850
+3557,The Fighting Yank - 19,,19,1947,Feb,superhero|western,https://digitalcomicmuseum.com/index.php?dlid=21013
+3558,Fight Comics - Shark brodie,,3,1940,Mar,scifi|adventure|jungle,https://digitalcomicmuseum.com/index.php?dlid=13833
+3559,Fight Comics - Blitz of Human Bombs,,16,1941,Dec,superhero|war|adventure,https://digitalcomicmuseum.com/index.php?dlid=12036
+3560,Fight Comics - Seniorita Rio,,21,1942,Oct,war|spy|mystery|adventure|female,https://digitalcomicmuseum.com/index.php?dlid=15971
+3561,Fight Comics - War loot for Mikado,,27,1943,Aug,war|spy,https://digitalcomicmuseum.com/index.php?dlid=17189
+3562,Fight Comics - Charge of the Lost Legion,,29,1943,Dec,war|spy|sports,https://digitalcomicmuseum.com/index.php?dlid=19422
+3563,Fight comics - Fire Brides of lost Atlantis,,43,1946,Apr,adventure|jungle|sports|crime|female,https://digitalcomicmuseum.com/index.php?dlid=14551
+3564,Fight Comics - the Fangs of Dr.Voodoo,,68,1950,May,jungle|adventure|sports|mystery|female,https://digitalcomicmuseum.com/index.php?dlid=15650
+3565,Fight Comics - Tiger Girl,,55,1948,Apr,jungle|adventure|spy|mystery|female,https://digitalcomicmuseum.com/index.php?dlid=12405
+3566,The Flame - Herr Arson Strikes,,6,1941,Aug,superhero|adventure,https://digitalcomicmuseum.com/index.php?dlid=19272
+3567,The Flame - Black legion,,7,1941,Oct,superhero|adventure,https://digitalcomicmuseum.com/index.php?dlid=13586
+3568,The Flame - Deadly Vanilla and a Violin,,3,1955,Mar,superhero|adventure,https://digitalcomicmuseum.com/index.php?dlid=14743
+3569,Frankenstein and the Thing,,10,1947,Nov,humor|children,https://digitalcomicmuseum.com/index.php?dlid=18305
+3570,Frankenstein and the Merry Monster,,13,1948,May,humor|children,https://digitalcomicmuseum.com/index.php?dlid=15489
+3571,Frankenstein and the Balloon maker,,14,1948,Aug,humor|children,https://digitalcomicmuseum.com/index.php?dlid=18571
+3572,Frankenstein and the Statue maker,,2,1945,,humor|children,https://digitalcomicmuseum.com/index.php?dlid=3404
+3573,"Frankenstein and Boris Karload, Master of Horror",,11,1948,Jan,humor|children,https://digitalcomicmuseum.com/index.php?dlid=23408
+3574,Frankenstein and The Girl With the Bewitching Eyes,,15,1948,Oct,humor|children,https://digitalcomicmuseum.com/index.php?dlid=18963
+3575,Frankenstein and Voice of His Conscience,,17,1949,Jan,humor,https://digitalcomicmuseum.com/index.php?dlid=24640
+3576,Frisky fables - Smart Daddy,,35,1949,Apr,animal|humor|romance,https://digitalcomicmuseum.com/index.php?dlid=22257
+3577,Gangster Gun Molls - Evelyn eliis Queen of gangsters,,1,1951,Sep,crime|police|female,https://digitalcomicmuseum.com/index.php?dlid=22990
+3578,Ghost rider - The hand from the grave,,11,,,western|fantasy|superhero,https://digitalcomicmuseum.com/index.php?dlid=13757
+3579,Ghost Rider - laughing Boy,,5,1951,Aug,western|fantasy|superhero,https://digitalcomicmuseum.com/index.php?dlid=18815
+3580,Ghost Rider - The Inn on Skull Mountain,,8,1952,Aug,western|fantasy|superhero,https://digitalcomicmuseum.com/index.php?dlid=20950
+3581,Ghost Rider - The Vulture Swoops,,9,1952,Oct,western|fantasy|superhero,https://digitalcomicmuseum.com/index.php?dlid=18561
+3582,Ghost rider - The Ghost Ants of San Pedro,,13,1953,Aug,western|fantasy|superhero,https://digitalcomicmuseum.com/index.php?dlid=11929
+3583,Glamorous Romances - Romance for Christmas,,57,1952,jan,romance,https://digitalcomicmuseum.com/index.php?dlid=2628
+3584,Glamorous romances - That First Time We Kissed,,48,1950,Oct,romance,https://digitalcomicmuseum.com/index.php?dlid=3219
+3585,The Green Hornet - Prisoner of War,,7,1942,Jun,superhero|detective|crime,https://digitalcomicmuseum.com/index.php?dlid=18464
+3586,The Green Hornet - The Orphanage Racket,,42,1948,Nov,superhero|detective|crime,https://digitalcomicmuseum.com/index.php?dlid=21398
+3587,Green Mask - banshee of dead mans hill,,11,1944,Nov,superhero|crime|detective|animal|humor,https://digitalcomicmuseum.com/index.php?dlid=19535
+3588,Green mask - Death weilds a scalpel,,9,1942,Feb,superhero|war,https://digitalcomicmuseum.com/index.php?dlid=19292
+3589,Junior rangers - Swamp rat killers,,20,1946,Aug,teen|crime|detective|mystery|adventure,https://digitalcomicmuseum.com/index.php?dlid=18349
+3590,"Hit Comics - Hercules, Betty Bates - The Fifth Column Plotters",,8,1941,Feb,superhero|adventure|humor|detective|female,https://digitalcomicmuseum.com/index.php?dlid=21263
+3591,"Hit Comics - Keeper, Kid Eternity , The Highness",,28,,,superhero|adventure|humor|detective|female|teen,https://digitalcomicmuseum.com/index.php?dlid=21447
+3592,Hit Comics - Kid Eternity - Murder Frameup!,,35,1945,Apr,detective|crime|teen,https://digitalcomicmuseum.com/index.php?dlid=21468
+3593,Hit Comics - Kid Eternity - The Shoe,,44,1947,Jan,detective|crime|teen,https://digitalcomicmuseum.com/index.php?dlid=21034
+3594,Hit Comics - Kid Eternity - Monsters From the Mirror,,49,1949,Nov,detective|crime|teen|humor,https://digitalcomicmuseum.com/index.php?dlid=21690
+3595,Hit Comics - Kid Eternity - Mr.Puny,,53,1950,Jul,detective|crime|teen|humor|animal,https://digitalcomicmuseum.com/index.php?dlid=21688
+3596,Hit Comics - Kid Eternity - battle of steeplechase,,56,1949,jan,superhero|humor|adventure|teen,https://digitalcomicmuseum.com/index.php?dlid=14699
+3597,Hit Comics - Kid eternity - tales of Invisible,,59,1952,Aug,crime|detective|mystery,https://digitalcomicmuseum.com/index.php?dlid=19561
+3598,Hit Comics - hercules - Thunder on the seas,,3,1940,Sep,superhero|spy|adventure,https://digitalcomicmuseum.com/index.php?dlid=1029
+3599,Holyoke One-Shot - Superhero,,1,1944,,superhero|non fiction|adventure,https://digitalcomicmuseum.com/index.php?dlid=18258
+3600,"Humdinger - Speck, Spot and Sis",,2,1946,Aug,children|humor|adventure,https://digitalcomicmuseum.com/index.php?dlid=22597
+3601,,,,,,,
+3602,,,,,,,
+3603,,,,,,,
+3604,,,,,,,
+3605,,,,,,,
+3606,,,,,,,
+3607,,,,,,,
+3608,,,,,,,
+3609,Jesse james - great Train Robbery,,20,1954,Aug,western|adventure,https://digitalcomicmuseum.com/index.php?dlid=17727
+3610,Jumbo Comics - Sheena - Stuart Taylor in Weird Stories of the Supernatural,,10,1939,Oct,jungle|scifi|humor|adventure|mystery|female,https://digitalcomicmuseum.com/index.php?dlid=8538
+3611,Jumbo Comics - Sheena - Pantheras of kajoo kazar,,138,1950,Aug,jungle|animal|adventure|female,https://digitalcomicmuseum.com/index.php?dlid=10747
+3612,Jumbo Comics - Sheena - Killers of Crypt,,145,1951,Mar,jungle|animal|female,https://digitalcomicmuseum.com/index.php?dlid=10347
+3613,Jumbo Comics - Sheena - The Ghosts of Blow-gun Trails,,155,1952,Jan,jungle|historical|fantasy|animal|female,https://digitalcomicmuseum.com/index.php?dlid=10346
+3614,Jumbo Comics - Sheena - Banshee Wail of the Undead,,97,1947,Mar,jungle|animal|female,https://digitalcomicmuseum.com/index.php?dlid=10165
+3615,Kaanga - ing of the Jungle,,106,1948,,jungle|adventure,https://www.coverbrowser.com/covers/jungle-comics/3#i106
+3616,Kaanga - Banshee Valley,,107,1948,Nov,jungle|animal|non fiction,https://digitalcomicmuseum.com/index.php?dlid=10572
+3617,Kaanga - Cavern of the Golden Bones,,109,1949,Jan,animal|jungle|adventure,https://digitalcomicmuseum.com/index.php?dlid=10609
+0,Kaanga - Colossus of the Congo,,81,1946,Sep,jungle|animal|non fiction,https://digitalcomicmuseum.com/index.php?dlid=10869
+3619,Kaanga - Witch Queen of the Hairy Ones,,93,1947,Sep,jungle|animal|adventure,https://digitalcomicmuseum.com/index.php?dlid=9549
+3620,kaanga - Vendetta of the Free Tribes,,92,1947,Aug,jungle|animal|adventure,https://digitalcomicmuseum.com/index.php?dlid=8683
+3621,JoJo - The Mountain of Skulls,,8,1947,Nov,jungle|adventure,https://digitalcomicmuseum.com/index.php?dlid=19113
+3622,JoJo - The Copy-Mad Killers,,28,1949,Jun,jungle|adventure,https://digitalcomicmuseum.com/index.php?dlid=20951
+3623,Jumbo Comics - Sheena - Tigerman terror,,26,1941,Apr,jungle|adventure|female|scifi|children,https://digitalcomicmuseum.com/index.php?dlid=13568
+3624,,,,,,,
+3625,,,,,,,
+3626,,,,,,,
+3627,,,,,,,
+3628,,,,,,,
+3629,,,,,,,
+3630,,,,,,,
+3631,,,,,,,
+3632,,,,,,,
+3633,,,,,,,
+3634,,,,,,,
+3635,,,,,,,
+3636,,,,,,,
+3637,,,,,,,
+3638,,,,,,,
+3639,,,,,,,
+3640,,,,,,,
+3641,,,,,,,
+3642,,,,,,,
+3643,,,,,,,
+3644,,,,,,,
+3645,,,,,,,
+3646,,,,,,,
+3647,,,,,,,
+3648,,,,,,,
+3649,,,,,,,
+3650,,,,,,,
+3651,,,,,,,
+3652,,,,,,,
+3653,,,,,,,
+3654,,,,,,,
+3655,,,,,,,
+3656,,,,,,,
+3657,,,,,,,
+3658,,,,,,,
+3659,,,,,,,
+3660,,,,,,,
+3661,,,,,,,
+3662,,,,,,,
+3663,,,,,,,
+3664,,,,,,,
+3665,,,,,,,
+3666,,,,,,,
+3667,,,,,,,
+3668,,,,,,,
+3669,,,,,,,
+3670,,,,,,,
+3671,,,,,,,
+3672,,,,,,,
+3673,,,,,,,
+3674,,,,,,,
+3675,,,,,,,
+3676,,,,,,,
+3677,,,,,,,
+3678,,,,,,,
+3679,,,,,,,
+3680,,,,,,,
+3681,,,,,,,
+3682,,,,,,,
+3683,,,,,,,
+3684,,,,,,,
+3685,,,,,,,
+3686,,,,,,,
+3687,,,,,,,
+3688,,,,,,,
+3689,,,,,,,
+3690,,,,,,,
+3691,,,,,,,
+3692,,,,,,,
+3693,,,,,,,
+3694,,,,,,,
+3695,,,,,,,
+3696,,,,,,,
+3697,,,,,,,
+3698,,,,,,,
+3699,,,,,,,
+3700,,,,,,,
+3701,,,,,,,
+3702,,,,,,,
+3703,,,,,,,
+3704,,,,,,,
+3705,,,,,,,
+3706,,,,,,,
+3707,,,,,,,
+3708,,,,,,,
+3709,,,,,,,
+3710,,,,,,,
+3711,,,,,,,
+3712,,,,,,,
+3713,,,,,,,
+3714,,,,,,,
+3715,,,,,,,
+3716,,,,,,,
+3717,,,,,,,
+3718,,,,,,,
+3719,,,,,,,
+3720,,,,,,,
+3721,,,,,,,
+3722,,,,,,,
+3723,,,,,,,
+3724,,,,,,,
+3725,,,,,,,
+3726,,,,,,,
+3727,,,,,,,
+3728,,,,,,,
+3729,,,,,,,
+3730,,,,,,,
+3731,,,,,,,
+3732,,,,,,,
+3733,,,,,,,
+3734,,,,,,,
+3735,,,,,,,
+3736,,,,,,,
+3737,,,,,,,
+3738,,,,,,,
+3739,,,,,,,
+3740,,,,,,,
+3741,,,,,,,
+3742,,,,,,,
+3743,,,,,,,
+3744,,,,,,,
+3745,,,,,,,
+3746,,,,,,,
+3747,,,,,,,
+3748,,,,,,,
+3749,,,,,,,
+3750,,,,,,,
+3751,,,,,,,
+3752,,,,,,,
+3753,,,,,,,
+3754,,,,,,,
+3755,,,,,,,
+3756,,,,,,,
+3757,,,,,,,
+3758,,,,,,,
+3759,,,,,,,
+3760,,,,,,,
+3761,,,,,,,
+3762,,,,,,,
+3763,,,,,,,
+3764,,,,,,,
+3765,,,,,,,
+3766,,,,,,,
+3767,,,,,,,
+3768,,,,,,,
+3769,,,,,,,
+3770,,,,,,,
+3771,,,,,,,
+3772,,,,,,,
+3773,,,,,,,
+3774,,,,,,,
+3775,,,,,,,
+3776,,,,,,,
+3777,,,,,,,
+3778,,,,,,,
+3779,,,,,,,
+3780,,,,,,,
+3781,,,,,,,
+3782,,,,,,,
+3783,,,,,,,
+3784,,,,,,,
+3785,,,,,,,
+3786,,,,,,,
+3787,,,,,,,
+3788,,,,,,,
+3789,,,,,,,
+3790,,,,,,,
+3791,,,,,,,
+3792,,,,,,,
+3793,,,,,,,
+3794,,,,,,,
+3795,,,,,,,
+3796,,,,,,,
+3797,,,,,,,
+3798,,,,,,,
+3799,,,,,,,
+3800,,,,,,,
+3801,,,,,,,
+3802,,,,,,,
+3803,,,,,,,
+3804,,,,,,,
+3805,,,,,,,
+3806,,,,,,,
+3807,,,,,,,
+3808,,,,,,,
+3809,,,,,,,
+3810,,,,,,,
+3811,,,,,,,
+3812,,,,,,,
+3813,,,,,,,
+3814,,,,,,,
+3815,,,,,,,
+3816,,,,,,,
+3817,,,,,,,
+3818,,,,,,,
+3819,,,,,,,
+3820,,,,,,,
+3821,,,,,,,
+3822,,,,,,,
+3823,,,,,,,
+3824,,,,,,,
+3825,,,,,,,
+3826,,,,,,,
+3827,,,,,,,
+3828,,,,,,,
+3829,,,,,,,
+3830,,,,,,,
+3831,,,,,,,
+3832,,,,,,,
+3833,,,,,,,
+3834,,,,,,,
+3835,,,,,,,
+3836,,,,,,,
+3837,,,,,,,
+3838,,,,,,,
+3839,,,,,,,
+3840,,,,,,,
+3841,,,,,,,
+3842,,,,,,,
+3843,,,,,,,
+3844,,,,,,,
+3845,,,,,,,
+3846,,,,,,,
+3847,,,,,,,
+3848,,,,,,,
+3849,,,,,,,
+3850,,,,,,,
+3851,,,,,,,
+3852,,,,,,,
+3853,,,,,,,
+3854,,,,,,,
+3855,,,,,,,
+3856,,,,,,,
+3857,,,,,,,
+3858,,,,,,,
+3859,,,,,,,
+3860,,,,,,,
+3861,,,,,,,
+3862,,,,,,,
+3863,,,,,,,
+3864,,,,,,,
+3865,,,,,,,
+3866,,,,,,,
+3867,,,,,,,
+3868,,,,,,,
+3869,,,,,,,
+3870,,,,,,,
+3871,,,,,,,
+3872,,,,,,,
+3873,,,,,,,
+3874,,,,,,,
+3875,,,,,,,
+3876,,,,,,,
+3877,,,,,,,
+3878,,,,,,,
+3879,,,,,,,
+3880,,,,,,,
+3881,,,,,,,
+3882,,,,,,,
+3883,,,,,,,
+3884,,,,,,,
+3885,,,,,,,
+3886,,,,,,,
+3887,,,,,,,
+3888,,,,,,,
+3889,,,,,,,
+3890,,,,,,,
+3891,,,,,,,
+3892,,,,,,,
+3893,,,,,,,
+3894,,,,,,,
+3895,,,,,,,
+3896,,,,,,,
+3897,,,,,,,
+3898,,,,,,,
+3899,,,,,,,
+3900,,,,,,,
+3901,,,,,,,
+3902,,,,,,,
+3903,,,,,,,
+3904,,,,,,,
+3905,,,,,,,
+3906,,,,,,,
+3907,,,,,,,
+3908,,,,,,,
+3909,,,,,,,
+3910,,,,,,,
+3911,,,,,,,
+3912,,,,,,,
+3913,,,,,,,
+3914,,,,,,,
+3915,,,,,,,
+3916,,,,,,,
+3917,,,,,,,
+3918,,,,,,,
+3919,,,,,,,
+3920,,,,,,,
+3921,,,,,,,
+3922,,,,,,,
+3923,,,,,,,
+3924,,,,,,,
+3925,,,,,,,
+3926,,,,,,,
+3927,,,,,,,
+3928,,,,,,,
+3929,,,,,,,
+3930,,,,,,,
+3931,,,,,,,
+3932,,,,,,,
+3933,,,,,,,
+3934,,,,,,,
+3935,,,,,,,
+3936,,,,,,,
+3937,,,,,,,
+3938,,,,,,,
+3939,,,,,,,
+3940,,,,,,,
+3941,,,,,,,
+3942,,,,,,,
+3943,,,,,,,
+3944,,,,,,,
+3945,,,,,,,
+3946,,,,,,,
+3947,,,,,,,
+3948,,,,,,,
+3949,,,,,,,
