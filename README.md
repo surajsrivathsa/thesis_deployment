@@ -104,6 +104,6 @@ Contributions to this project are welcome. Feel free to open issues or submit pu
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Please replace `insert_link_to_project_image_here`, `your-username`, and customize any other placeholders with the relevant information for your GitHub repository. Additionally, you can further expand on the installation, usage, and contributing sections as needed for your specific project.
+
+Please replace images, `surajsrivathsa`, and customize any other placeholders with the relevant information for your GitHub repository. Additionally, you can further expand on the installation, usage, and contributing sections as needed for your specific project.
