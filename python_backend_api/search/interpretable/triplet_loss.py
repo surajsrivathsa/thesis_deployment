@@ -7,8 +7,8 @@ def group_triplet_loss_single_epoch(
     positive_feat_np,
     negative_feat_np,
     margin=0.1,
-    fd=[0, 3, 48, 64, 65],
-    global_weights=np.array([1.0, 1.0, 1.0, 1.0]),
+    fd=[0, 3, 48, 64, 66, 2114, 2179],
+    global_weights=np.array([1.0, 1.0, 1.0, 1.0, 1.0, 1.0]),
 ):
     loss_vector = np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
     for idx, elem in enumerate(fd):
@@ -106,7 +106,7 @@ def individual_triplet_loss_single_epoch(
     negative_feat_np,
     global_weights,
     margin=0.2,
-    fd=[0, 3, 48, 64, 65],
+    fd=[0, 3, 48, 64, 66, 2114, 2179],
 ):
     loss_vector = np.zeros_like(global_weights)
 

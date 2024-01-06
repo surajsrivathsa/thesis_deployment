@@ -207,7 +207,7 @@ def adaptive_rerank_coarse_search_results(
 #             positive_feature_np=positive_feature_np,
 #             negative_feature_np=negative_feature_np,
 #             global_weights=np.array([1.0, 1.0, 1.0, 1.0, 1.0, 1.0]),
-#             fd=[0, 3, 48, 64, 65, 2113, 2117],
+#             fd=[0, 3, 48, 64, 66, 2114, 2179],
 #             epochs=500,
 #         )
 #     else:

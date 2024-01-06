@@ -416,8 +416,17 @@ def adapt_facet_weights_from_previous_timestep_click_info_triplet_loss(
         len(interested_books_except_query_idx_lst) > 0
         and len(discarded_books_except_query_idx_lst) > 0
     ):
+        
+        # Use semi-hard triplet sampling
+        semi_hard_triplets = semi_hard_triplet_sampling(query_book_id, interested_books_except_query_idx_lst, discarded_books_except_query_idx_lst)
+        
+        if semi_hard_triplets:
+            combination_tuple_lst = semi_hard_triplets
+        else:
+            # Fallback to existing strategy if no semi-hard triplets found
+            combination_tuple_lst = [p for p in itertools.product(*all_books_lst)]
 
-        combination_tuple_lst = [p for p in itertools.product(*all_books_lst)]
+        # combination_tuple_lst = [p for p in itertools.product(*all_books_lst)]
         # [(5, 100, 9), (5, 100, 2), (5, 101, 2)]
 
         anchor_feat_np = np.zeros(
@@ -489,6 +498,31 @@ def adapt_facet_weights_from_previous_timestep_click_info_triplet_loss(
 
     return (feature_importance_dict, normalized_feature_importance_dict, clf_coeff)
 
+
+def semi_hard_triplet_sampling(anchor_idx, positives, negatives, margin=0.2):
+    """
+    Select semi-hard negative samples for each anchor-positive pair.
+    A negative sample is considered semi-hard if it is further away from the anchor 
+    than the positive, but within a margin.
+    """
+    triplets = []
+    anchor_vector = get_feature_vector_by_book_id(anchor_idx)
+
+    for positive_idx in positives:
+        positive_vector = get_feature_vector_by_book_id(positive_idx)
+        positive_distance = np.linalg.norm(anchor_vector - positive_vector)
+
+        for negative_idx in negatives:
+            negative_vector = get_feature_vector_by_book_id(negative_idx)
+            negative_distance = np.linalg.norm(anchor_vector - negative_vector)
+
+            if positive_distance < negative_distance < positive_distance + margin:
+                triplets.append((anchor_idx, positive_idx, negative_idx))
+
+    return triplets
+
+def get_feature_vector_by_book_id(id):
+    return interpretable_scaled_features_np[id, :]
 
 if __name__ == "__main__":
 
