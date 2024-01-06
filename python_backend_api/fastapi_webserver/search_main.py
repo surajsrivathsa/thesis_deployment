@@ -1,34 +1,37 @@
-from fastapi import FastAPI, Query, HTTPException, File
+import local_explanation_utils as le_utils
+import interpretable_search_utils as is_utils
+import rerank_results as rrr
+import coarse_search_utils as cs_utils
+import explain_relevance_feedback as erf
+from search.coarse import coarse_search
+import common_constants.backend_constants as cst
+import common_functions.backend_utils as utils
+from fastapi import FastAPI, Query, HTTPException, File, Request
 from fastapi.responses import StreamingResponse
 from io import BytesIO
 
 from pydantic import BaseModel
 from typing import List, Optional
-import json, os, sys, random
+import json
+import os
+import sys
+import random
 from fastapi.middleware.cors import CORSMiddleware
-import pandas as pd, numpy as np
+import pandas as pd
+import numpy as np
 import random
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(1, os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
-import common_functions.backend_utils as utils
-import common_constants.backend_constants as cst
-from search.coarse import coarse_search
-
-import explain_relevance_feedback as erf
 
 print("returned to main")
-import coarse_search_utils as cs_utils
 
 print("coarse search")
-import rerank_results as rrr
 
 print("rrr")
-import interpretable_search_utils as is_utils
 
 print("is_utils")
-import local_explanation_utils as le_utils
 
 print("Server loaded")
 
@@ -55,7 +58,8 @@ sentence_transformer_model = None
 # create session id, set this by default
 session_id = "bd65600d-8669-4903-8a14-af88203add38"
 latest_session_id = "bd65600d-8669-4903-8a14-af88203add38"
-latest_session_folderpath = os.path.join(cst.SESSIONDATA_PARENT_FILEPATH, session_id)
+latest_session_folderpath = os.path.join(
+    cst.SESSIONDATA_PARENT_FILEPATH, session_id)
 
 # create global variable to track history of search results
 book_search_results_history_lst = []
@@ -469,7 +473,8 @@ async def search_with_searchbar_inputs(
         for idx, d in enumerate(interpretable_filtered_book_lst)
         if idx <= 20
     ]
-    print({**interpretable_filtered_book_lst[0], **normalized_feature_importance_dict})
+    print(
+        {**interpretable_filtered_book_lst[0], **normalized_feature_importance_dict})
     interpretable_filtered_book_new_lst = [
         interpretable_filtered_book_lst.copy(),
         normalized_feature_importance_dict,
@@ -505,8 +510,10 @@ async def get_local_explanation(selected_book_lst: dict):
     story_pace_book_1 = le_utils.fetch_story_pace(selected_book_id_1)
     story_pace_book_2 = le_utils.fetch_story_pace(selected_book_id_2)
 
-    w5_h1_facets_book_1 = le_utils.pick_facets_for_local_explanation(selected_book_id_1)
-    w5_h1_facets_book_2 = le_utils.pick_facets_for_local_explanation(selected_book_id_2)
+    w5_h1_facets_book_1 = le_utils.pick_facets_for_local_explanation(
+        selected_book_id_1)
+    w5_h1_facets_book_2 = le_utils.pick_facets_for_local_explanation(
+        selected_book_id_2)
 
     lrp_book_1 = le_utils.fetch_book_cover_keywords(selected_book_id_1)
     lrp_book_2 = le_utils.fetch_book_cover_keywords(selected_book_id_2)
@@ -577,7 +584,8 @@ async def start_session(flag: str):
 async def view_comic_book(b_id: int = 1):
 
     pdf_folderpath = "../data/comics_data/comic_books"
-    pdf_filepath = os.path.join(pdf_folderpath, "comic_book_{}.pdf".format(b_id))
+    pdf_filepath = os.path.join(
+        pdf_folderpath, "comic_book_{}.pdf".format(b_id))
     print("pdf_filepath: {}".format(pdf_filepath))
     if os.path.exists(pdf_filepath):
         new_pdf_filepath = pdf_filepath
@@ -845,7 +853,8 @@ async def search_with_searchbar_inputs_with_random_serp(
         historical_book_ids_lst=book_search_results_history_lst.copy(),
     )
     book_search_results_history_lst = historical_book_ids_lst.copy()
-    print("interpretable_filtered_book_lst: {}".format(interpretable_filtered_book_lst))
+    print("interpretable_filtered_book_lst: {}".format(
+        interpretable_filtered_book_lst))
     relevance_feedback_explanation_dict = await erf.explain_relevance_feedback(
         clicksinfo_dict=[],
         query_book_id=b_id,
@@ -853,7 +862,8 @@ async def search_with_searchbar_inputs_with_random_serp(
         model=sentence_transformer_model,
     )
 
-    print("relevance_feedback_explanation_dict: {}".format(relevance_feedback_explanation_dict))
+    print("relevance_feedback_explanation_dict: {}".format(
+        relevance_feedback_explanation_dict))
 
     # add facet weights to UI
     interpretable_filtered_book_new_lst = [
@@ -865,7 +875,8 @@ async def search_with_searchbar_inputs_with_random_serp(
         for idx, d in enumerate(interpretable_filtered_book_lst)
         if idx <= 20
     ]
-    print({**interpretable_filtered_book_lst[0], **normalized_feature_importance_dict})
+    print(
+        {**interpretable_filtered_book_lst[0], **normalized_feature_importance_dict})
     interpretable_filtered_book_new_lst = [
         interpretable_filtered_book_lst.copy(),
         normalized_feature_importance_dict,
@@ -1250,7 +1261,8 @@ async def get_explanation_comparision_with_random(
         ] = le_utils.fetch_character_info_for_local_explanation(
             random_book_ids_lst[idx]
         )
-        tmp_dict[selected_book_id]["genres"] = fetch_genres(random_book_ids_lst[idx])
+        tmp_dict[selected_book_id]["genres"] = fetch_genres(
+            random_book_ids_lst[idx])
         tmp_dict[selected_book_id]["book_cover"] = le_utils.fetch_book_cover_keywords(
             random_book_ids_lst[idx]
         )
@@ -1272,9 +1284,20 @@ async def get_explanation_comparision_with_random(
     return comparision_dict
 
 
+@app.get("/rooturl")
+async def read_root():
+    return {"message": "Hello from FastAPI"}
+
+
+@app.get("/test")
+def read_main(request: Request):
+    return {"message": "Hello World", "root_path": request.scope.get("root_path")}
+
+
 if __name__ == "__main__":
     # get entry page results
-    coarse_filtered_book_new_lst, coarse_filtered_book_df = get_coarse_results(542)
+    coarse_filtered_book_new_lst, coarse_filtered_book_df = get_coarse_results(
+        542)
     clicked_book_lst = create_fake_clicks_for_previous_timestep_data(
         coarse_filtered_book_df
     )

@@ -450,7 +450,7 @@ def adapt_facet_weights_from_previous_timestep_click_info_triplet_loss(
                 positive_feature_np=positive_feat_np,
                 negative_feature_np=negative_feat_np,
                 global_weights=np.array([1.0, 1.0, 1.0, 1.0, 0.5, 0.5]),
-                fd=[0, 3, 48, 64, 65, 2113, 2117],
+                fd=[0, 3, 48, 64, 66, 2114, 2179],
                 epochs=501,
                 margin=0.2,
                 learning_rate=2e-3,

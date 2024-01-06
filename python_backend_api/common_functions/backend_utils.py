@@ -144,7 +144,7 @@ def load_all_interpretable_features():
     gender_feat_np = interpretable_scaled_features_np[:, 0:3].copy()
     supersense_feat_np = interpretable_scaled_features_np[:, 3:48].copy()
     genre_feat_np = interpretable_scaled_features_np[:, 48:64].copy()
-    panel_ratio_feat_np = interpretable_scaled_features_np[:, 64:65].copy()
+    panel_ratio_feat_np = interpretable_scaled_features_np[:, 64:66].copy()
 
     comic_cover_img_df = pd.read_csv(cst.COMIC_COVER_IMG_FILEPATH)
     comic_cover_img_np = comic_cover_img_df.to_numpy()
